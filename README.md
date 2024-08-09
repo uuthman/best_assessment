@@ -1,16 +1,25 @@
-# assessment_test
+# Flutter desktop application
 
-A new Flutter project.
+### This is a timer desktop application(macos only) that takes a headshot of the user and a screenshot of the at the end of the timer
 
-## Getting Started
+![Image](1723152015540173.jpg)
+![Image](Screenshot%202024-08-09%20at%2009.51.20.png)
+![Image](Screenshot%202024-08-09%20at%2009.51.33.png)
+![Image](Screenshot%202024-08-09%20at%2009.52.01.png)
 
-This project is a starting point for a Flutter application.
+## Package used 
+ - Freezed 
+ - Bloc state management
+ - camera_macos
+ - camera_windows 
+ - screenshot 
 
-A few resources to get you started if this is your first Flutter project:
+## Clone the repo
+ - https://github.com/uuthman/best_assessment.git
+ - cd assessment_test
+ - flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Generate the freezed classes
+ - dart flutter pub run build_runner build --delete-conflicting-outputs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
