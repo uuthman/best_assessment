@@ -122,9 +122,13 @@ class _MainPageViewState extends State<MainPageView> {
   @override
   void initState() {
     // TODO: implement initState
-    listVideoDevices();
+
     if (platform == TargetPlatform.windows) {
       _fetchCameras();
+    }
+
+    if(platform == TargetPlatform.macOS) {
+      listVideoDevices();
     }
     super.initState();
   }
